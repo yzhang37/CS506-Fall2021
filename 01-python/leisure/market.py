@@ -1,3 +1,3 @@
 def draw_market():
-    print("market not found")
+    print("Built star market near Boston University.")
     return
