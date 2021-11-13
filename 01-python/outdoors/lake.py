@@ -1,3 +1,3 @@
 def draw_lake():
-    print("lake not found")
+    print("Built new BU lake.")
     return
