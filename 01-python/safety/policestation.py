@@ -1,3 +1,3 @@
 def draw_policestation():
-    print("police station not found")
+    print("BU police department constructed.")
     return

@@ -1,3 +1,3 @@
 def draw_museum():
-    print("museum not found")
+    print("Build Gabel Museum of Archaeology")
     return
