@@ -47,10 +47,10 @@ We will then merge the PRs and print our city!
 - [x] [Clone](https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html#clone-a-repository) **your fork** locally
 - [x] [Add a remote](https://help.github.com/en/articles/adding-a-remote) called `upstream` pointing to this repo (`https://github.com/gallettilance/CS506-Fall2021` or `git@github.com:gallettilance/CS506-Fall2021.git`)
 - [x] [Create](https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html#create-a-new-branch) and checkout a branch named after the component you are working on
-- [ ] Implement your component by editing the relevant file(s)
-- [ ] [Add](https://help.github.com/en/articles/adding-a-file-to-a-repository-using-the-command-line) and [Commit](https://help.github.com/en/articles/adding-a-file-to-a-repository-using-the-command-line) your changes
-- [ ] [Push](https://help.github.com/en/articles/pushing-commits-to-a-remote-repository) these changes to your fork on github
-- [ ] [Create a Pull Request](https://help.github.com/en/articles/creating-a-pull-request) against this repository.
+- [x] Implement your component by editing the relevant file(s)
+- [x] [Add](https://help.github.com/en/articles/adding-a-file-to-a-repository-using-the-command-line) and [Commit](https://help.github.com/en/articles/adding-a-file-to-a-repository-using-the-command-line) your changes
+- [x] [Push](https://help.github.com/en/articles/pushing-commits-to-a-remote-repository) these changes to your fork on github
+- [x] [Create a Pull Request](https://help.github.com/en/articles/creating-a-pull-request) against this repository.
 
 ### Addressing Feedback
 
