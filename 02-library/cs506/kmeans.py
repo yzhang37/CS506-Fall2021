@@ -86,7 +86,27 @@ def generate_k_pp(dataset, k):
     where points are picked with a probability proportional
     to their distance as per kmeans pp
     """
-    raise NotImplementedError()
+
+    # 1. Random first center point
+    num_dataset = len(dataset)
+    first_idx = random.choice(range(num_dataset))
+    centers = [dataset[first_idx]]
+
+    # 2. Calculate the distance between each sample and each cluster center and save the smallest distance
+    dist_note = [float("inf")] * num_dataset
+
+    for j in range(k - 1):
+        # Calculate the distance between each sample and each cluster center and save the smallest distance
+        for i in range(num_dataset):
+            dist = distance(centers[j], dataset[i])
+            if dist < dist_note[i]:
+                dist_note[i] = dist
+
+        max_val = max(dist_note)
+        next_idx = dist_note.index(max_val)
+        centers.append(dataset[next_idx])
+
+    return centers
 
 
 def _do_lloyds_algo(dataset, k_points):
