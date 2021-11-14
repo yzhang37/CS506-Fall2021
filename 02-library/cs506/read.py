@@ -10,6 +10,6 @@ def read_csv(csv_file_path):
     with open(csv_file_path) as csvfile:
         csv_reader = csv.reader(csvfile)
         for row in csv_reader:
-            row_data = [float(x) for x in row]
+            row_data = [float(x) if x.isnumeric() else x for x in row]
             data.append(row_data)
     return data
