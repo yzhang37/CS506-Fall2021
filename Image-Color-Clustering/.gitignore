@@ -1,0 +1,7 @@
+# ignore IDEA files
+.idea/
+
+# ignore Apple Files
+.DS_Store
+
+
